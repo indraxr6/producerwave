@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" cellpading = "5px">
+        <thead>
+            <tr>
+            <th rowspan="2">Name</th>
+            <th colspan="6">Timeline</th>
+            </tr>
+
+            <tr>
+            <th>Class</th>
+            <th>Subject</th>
+            <th>Minggu-1</th>
+            <th>Minggu-2</th>
+            <th>Minggu-3</th>
+            <th>Minggu-4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Chrisna</td>
+                <td>XIR6</td>
+                <td>RPL</td>
+                <td colspan="3" align="center">masuk</td>
+                <td>tidak masuk</td>
+            </tr>
+            <tr>
+                <td>Indra</td>
+                <td>XIR8</td>
+                <td>RPL</td>
+                <td>masuk</td>
+                <td colspan="3" align="center">bolos wkwkwk</td>
+            </tr>
+            <tr>
+                <td>Saya Lagi</td>
+                <td>XTKJ12</td>
+                <td>TKJ</td>
+                <td colspan="4" align="center">masuk</td>
+            </tr>
+            <tr>
+                <td>Adalah Saya</td>
+                <td>XTKJ2</td>
+                <td>TKJ</td>
+                <td colspan="2" align="center">masuk</td>
+                <td colspan="2"align="center">tidak masuk</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div style="padding: 4; line-height: 3;">
+
+        <h1>Form Faksinasi Copid-Nain_teen</h1>
+        
+        <form action="submit.html">
+        <div>
+            <label>Nama</label>
+            <input type="text" />
+        </div>
+
+        <div>
+            <label>E-Mail</label>
+            <input type="email" />
+        </div>
+
+        <div>
+            <label>No. Telpon</label>
+            <input type=”number” />
+
+        </div>
+
+        <div>
+            <label>Tanggal Faksin</label>
+            <input type="date" />
+        </div>
+
+        <div>
+            <label>Tingkat (....)</label>
+            <input type="range" />
+        </div>
+
+        <div>
+            <label>Upload Sertifikat Faksin</label>
+            <input type="file" id="myFile" name="filename">
+            
+        </div>
+        <button onclick="alert('Selamat Anda berhasil mengirim data faksin!')">Submit Data</button>
+
+        <button type="reset">Kosongkan Data</button>
+    </form>
+
+    </div>
+
+    
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+h1 .berita {
+    background-color: aquamarine;
+    column-count: 3;
+    stroke: aquamarine;
+}
+h1 {
+    stroke: yellowgreen;
+    
+}
