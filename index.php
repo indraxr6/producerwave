@@ -1,33 +1,30 @@
 <?php 
 session_start();
     if($_SESSION['status_login']!=true){
-        header('location: login.html');
-    }
+        header("location: index.html");
+}
 ?>
+
 <html lang="en">
     <meta charset="UTF-8">  
 <head>
-    
-    
     <title>The DAWs Article</title>
     <link rel="icon" href="daw.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
-
 </head>
 <body>
     <header>
         <section>
             <nav>  
-                    <a href="index.html"> <img src="corner-icon_daw_invert.png" class="daw-icon"></a>
+                    <a href="index.php"> <img src="corner-icon_daw_invert.png" class="daw-icon"></a>
                     <ul class="appbutton">
                         <li><a class="appbutton-container" href="Logic.html" id="1"> Logic Pro</a></li>
                         <li><a class="appbutton-container" href="FL.html" id="2"> FL Studio</a></li>
                         <li><a class="appbutton-container" href="Able.html" id="3"> Ableton</a></li>
                         <li><a class="appbutton-container" href="Garage.html" id="4"> Garage Band</a></li>
                         <li><a class="appbutton-container-right" href="Login.html"> Login/Register</a></li>
-                        <a id="cart" href="Logout.php"> <img src="cart.svg" class="cart-icon" style="width: 38px; filter: invert(1); opacity: 0.8;"></a>
-
+                        <a id="cart" href="Logout.php"> <img src="logout.svg" class="cart-icon" style="width: 40px; filter: invert(1); opacity: 0.8;"></a>
             </ul>
             <ul class="appbutton-right"></ul>
             </nav>       
@@ -44,7 +41,7 @@ session_start();
         <a href="https://www.apple.com/id/ios/garageband/" target="_blank"> <img src="garageband.png" style="width: 200; height: 200;"></a>
     </div>
     
-    <h5  style="text-align: center; margin-bottom: 50px; color: #4CAF50;">Welcome back, <php?= $_SESSION['name']  ?></h5>
+    <h5  style="text-align: center; margin-bottom: 50px; color: #4CAF50;">Welcome back, <?= $_SESSION['name']  ?></h5>
 
     <div class="optext">
         
@@ -75,3 +72,5 @@ session_start();
     
 </body>
 </html>
+
+

@@ -16,8 +16,8 @@ if($_POST){
         include "conn.php";
         $insert=mysqli_query($conn,"insert into users (name, email, password) value ('".$name."','".$email."','".md5($password)."')") or die(mysqli_error($conn));
         if($insert){
-            echo "<script>alert('Register Success');location.href='Register.html';</script>";
-            header("location: index.html");
+            echo "<script>alert('Register Success')</script>";
+          //   header("location: index.php");
         } else {
             echo "<script>alert('Register Failed!');location.href='Register.html';</script>";
         }

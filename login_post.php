@@ -17,10 +17,9 @@
                 $_SESSION['email']=$dt_login['email'];
                 $_SESSION['password']=$dt_login['password'];
                 $_SESSION['user_id']=$dt_login['user_id'];
-                // $_SESSION['user_id']=$dt_login['user_id'];
                 $_SESSION['name']=$dt_login['name'];
                 $_SESSION['login_status']=true;
-                header("location: index.html");
+                header("location: index.php");
             } else {
                 echo "<script>alert('Can't found existed account with that credentials.');location.href='login.php';</script>";
                 header("location: Login.html");
