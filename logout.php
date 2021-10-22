@@ -1,7 +1,7 @@
 <?php
 session_start();
-unset($_SESSION["nama_siswa"]);
-unset($_SESSION["id_siswa"]);
-unset($_SESSION["status_login"]);
-header("Location:login.php");
+unset($_SESSION["name"]);
+unset($_SESSION["user_id"]);
+unset($_SESSION["login_status"]);
+header("Location:login.html");
 ?>

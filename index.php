@@ -1,9 +1,9 @@
 <?php 
 session_start();
     if($_SESSION['status_login']!=true){
-        header('location: login.php');
+        header('location: login.html');
     }
-
+?>
 <html lang="en">
     <meta charset="UTF-8">  
 <head>
@@ -13,7 +13,6 @@ session_start();
     <link rel="icon" href="daw.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
-
 
 </head>
 <body>
@@ -27,7 +26,7 @@ session_start();
                         <li><a class="appbutton-container" href="Able.html" id="3"> Ableton</a></li>
                         <li><a class="appbutton-container" href="Garage.html" id="4"> Garage Band</a></li>
                         <li><a class="appbutton-container-right" href="Login.html"> Login/Register</a></li>
-                        <a id="cart" href="Buy.html"> <img src="cart.svg" class="cart-icon" style="width: 38px; filter: invert(1); opacity: 0.8;"></a>
+                        <a id="cart" href="Logout.php"> <img src="cart.svg" class="cart-icon" style="width: 38px; filter: invert(1); opacity: 0.8;"></a>
 
             </ul>
             <ul class="appbutton-right"></ul>
@@ -76,4 +75,3 @@ session_start();
     
 </body>
 </html>
-?>
