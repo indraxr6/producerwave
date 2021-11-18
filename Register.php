@@ -1,25 +1,34 @@
-<!-- <html lang="en">
+<html lang="en">
     <meta charset="UTF-8">  
 <head>
     
     <title>ProducerWave Account</title>
     <link rel="icon" href="images/daw.ico">
-    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
-    <link rel="stylesheet" type="text/css" href="signin-style.css">
-    <h2>Enter your personal details and start journey with us!</h2>
+    <!-- <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <link rel="stylesheet" type="text/css" href="register-style.css">
+    <h2>Welcome to register page! </h2>
 <div class="container" id="container">
 	
 	<div class="form-container sign-in-container">
-		<form action="login_post.php" method="POST">
-			<h1>Register</h1>
-            
-			<span>use your existing ProducerWave account</span>
-            <img src="images/corner-icon_daw.png" style="width: 50px; padding-bottom: 40px; opacity: 0.8;" alt="daw-icon">
+		<form action="register_post.php" method="POST">
+			<span>Let's get started with entering your personal credentials.</span>
+                              <img src="images/corner-icon_daw.png" style="width: 50px; padding-bottom: 40px; opacity: 0.8;" alt="daw-icon">
                               <input type="text" name="name" placeholder="Username" value="" class="form-control">
-			<input type="email" name="email" placeholder="E-mail" />
-			<input type="password" name="password" placeholder="Password" />
-			<a href="#">Having problem? Ask Us!</a> 
-			<a href="index.php"><button>R</button></a>
+			<input type="email" name="email" class="form-control" placeholder="E-mail" />
+			<input type="password" name="password" placeholder="Password" value="" class="form-control"/>
+			<a href="#">Having a problem? Ask Us!</a> 
+			<a type="submit" name="add" value="Register" href="register_post.php"><button>Register!</button></a>
+          
+                             
+
+                              
+                             >
+
+                              
+                              
+                             
+           
+                              
 		</form>
 	</div>
           
@@ -30,24 +39,19 @@
 				<p>To keep connected with us please login with your personal info</p>
 				<button class="ghost" id="signIn">Sign In</button>
 			</div>
-			<div class="overlay-panel overlay-right">
-				<h1>Hello, Producers!</h1>
-				<p>Enter your personal details and start journey with us!</p>
-				<a href="Register.php"><button class="ghost" id="signUp">Register</button></a> 
-			</div>
+			
 		</div>
 	</div>
 </div>
 
 
-<!-- <footer>
+<footer>
 	<p>
-		Created with <i class="fa fa-heart"></i> by
-		<a target="_blank" href="https://florin-pop.com">Florin Pop</a>
-		- Read how I created this and how you can join the challenge
-		<a target="_blank" href="https://www.florin-pop.com/blog/2019/03/double-slider-sign-in-up-form/">here</a>.
-	</p>
-</footer> -->
+		Created by ProducerWave management at
+		<a target="_blank" href="https://smktelkom-mlg.sch.id/">Moklet</a>- start your music journey with us!</p>
+
+        
+</footer>
 
 
 

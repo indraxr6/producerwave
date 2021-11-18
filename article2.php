@@ -1,4 +1,7 @@
-
+<?php 
+session_start();
+ 
+?>
 <html lang="en">
           <meta charset="UTF-8">  
       <head>
@@ -21,7 +24,9 @@
                               <li><a class="appbutton-container" href="FL.php" id="2"> FL Studio</a></li>
                               <li><a class="appbutton-container" href="Able.php" id="3"> Ableton</a></li>
                               <li><a class="appbutton-container" href="Garage.php" id="4"> Garage Band</a></li>
-                              <li><a class="appbutton-container-right" href="Login.php"> Login/Register</a></li>
+                              <li><a class="appbutton-container-right" href="login.php"> <?= $_SESSION['name']  ?></a></li>
+                        <a id="cart" href="logout.php"><img src="images/logout.svg" class="cart-icon" style="width: 40px; filter: invert(1); opacity: 0.8;"></a>
+
                               
       
                   </ul>

@@ -19,7 +19,7 @@ if($_POST){
             echo "<script>alert('Register Success')</script>";
             header("location: index.php");
         } else {
-            echo "<script>alert('Register Failed!');location.href='Register.html';</script>";
+            echo "<script>alert('Register Failed!');location.href='Register.php';</script>";
         }
     }
 }
