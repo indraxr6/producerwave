@@ -22,8 +22,8 @@ h2 {
 }
 
 body {
-	background-image: url(main-bg-log.jpg);
-    background-size: cover;
+	background-image: url(images/main-bg-log.jpg);
+    	background-size: cover;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -194,7 +194,7 @@ input {
 }
 
 .overlay {
-	background: url(signin-bg.jpg);
+	background: url(images/signin-bg.jpg);
 	
 	background-repeat: no-repeat;
 	background-size: cover;

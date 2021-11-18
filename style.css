@@ -42,7 +42,7 @@ html, body {
 }
 
 body {
-    background-image: url(main-bg3.png);
+    background-image: url(images/main-bg3.png);
     background-size: cover;
     padding: 0px;
     
@@ -156,21 +156,13 @@ nav ul li a{
     filter: opacity(0.5);
     
     /* color: #69d36d;
-    box-shadow: 0 0 14px white; */
-    
-    
+    box-shadow: 0 0 14px white; */   
 }
-
-
-
 .appbutton-container:hover {
     
     /* color: #233c66; */
     color: #69d36d;
     text-shadow: 0 0 14px white;
-   
-    
-    
 }
 
 .appbutton:active {
@@ -204,7 +196,7 @@ li {
     margin-left: 230px;
     margin-right: 230px; 
     padding: 20px; 
-    font-size: 30px
+    font-size: 25px
 }
 
 .optext2 {
@@ -214,12 +206,12 @@ li {
     margin-left: 180px; 
     margin-right: 180px; 
     padding: 68px; 
-    font-size: 28px;
+    font-size: 25px;
     
 }
 
 .optext .about {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 2;
     
 }

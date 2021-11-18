@@ -3,6 +3,7 @@
 <head>
     
     
+    
     <title>The DAWs Article</title>
     <link rel="icon" href="daw.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
@@ -16,15 +17,15 @@
             <nav>  
                     <a href="index.php"> <img src="corner-icon_daw_invert.png" class="daw-icon"></a>
                     <ul class="appbutton">
-                        <li><a class="appbutton-container" href="Logic.html" id="1"> Logic Pro</a></li>
-                        <li><a class="appbutton-container" href="FL.html" id="2"> FL Studio</a></li>
-                        <li><a class="appbutton-container" href="Able.html" id="3"> Ableton</a></li>
-                        <li><a class="appbutton-container" href="Garage.html" id="4"> Garage Band</a></li>
+                        <li><a class="appbutton-container" href="Logic.php" id="1"> Logic Pro</a></li>
+                        <li><a class="appbutton-container" href="FL.php" id="2"> FL Studio</a></li>
+                        <li><a class="appbutton-container" href="Able.php" id="3"> Ableton</a></li>
+                        <li><a class="appbutton-container" href="Garage.php" id="4"> Garage Band</a></li>
                         
 
             </ul>
             <ul class="appbutton-right">
-                <li><a class="appbutton-container-right" href="Login.html"> Login/Register</a></li>
+                <li><a class="appbutton-container-right" href="login.php"> Login/Register</a></li>
  
                 <!-- <a id="cart"" href="Buy.html"> <img src="cart.svg" class="cart-icon" style="width: 38px; filter: invert(1); opacity: 0.8;"></a> -->
                 <!-- <input type="text" placeholder="Search.."> -->
@@ -40,11 +41,11 @@
             <h1 style="padding: 30px;">
             What is Logic Pro?
             </h1>
-            <img src="logicpro.png" style="width: 390;">
+            <img src="images/logicpro.png" style="width: 390;">
             <p style="text-indent: 1in;">
                 Logic Pro is a digital audio workstation (DAW) and MIDI sequencer software application for the macOS platform. It was originally created in the early 1990s as Notator Logic,[3] or Logic, by German software developer C-Lab which later went by Emagic. American technology company Apple acquired Emagic in 2002 and renamed Logic to Logic Pro. It is the second most popular DAW – after Ableton Live – according to a survey conducted in 2015.[4]
             </p>
-            <img src="logic-ui.jpg" style="width: 825; padding-bottom: 20px;">
+            <img src="images/logic-ui.jpg" style="width: 825; padding-bottom: 20px;">
             <p style="text-indent: 1in;">
                 A consumer-level version based on the same interface and audio engine but with reduced features, called Logic Express, was also available at a reduced cost. Apple's GarageBand comes free with all new Macintosh computers and iOS devices and is another application built on Logic's audio engine. On December 8, 2011, the boxed version of Logic Pro was discontinued, along with Logic Express, and as with all other Apple software for Macs, Logic Pro is now only available through the Mac App Store.[5]
             </p>

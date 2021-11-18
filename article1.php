@@ -15,13 +15,13 @@
     <header>
         <section>
             <nav>  
-                    <a href="index.html"> <img src="corner-icon_daw_invert.png" class="daw-icon"></a>
+                    <a href="index.php"> <img src="corner-icon_daw_invert.png" class="daw-icon"></a>
                     <ul class="appbutton">
-                        <li><a class="appbutton-container" href="Logic.html" id="1"> Logic Pro</a></li>
-                        <li><a class="appbutton-container" href="FL.html" id="2"> FL Studio</a></li>
-                        <li><a class="appbutton-container" href="Able.html" id="3"> Ableton</a></li>
-                        <li><a class="appbutton-container" href="Garage.html" id="4"> Garage Band</a></li>
-                        <li><a class="appbutton-container-right" href="Login.html"> Login/Register</a></li>
+                        <li><a class="appbutton-container" href="Logic.php" id="1"> Logic Pro</a></li>
+                        <li><a class="appbutton-container" href="FL.php" id="2"> FL Studio</a></li>
+                        <li><a class="appbutton-container" href="Able.php" id="3"> Ableton</a></li>
+                        <li><a class="appbutton-container" href="Garage.php" id="4"> Garage Band</a></li>
+                        <li><a class="appbutton-container-right" href="Login.php"> Login/Register</a></li>
                         
 
             </ul>
@@ -37,7 +37,7 @@
           </h1>
           <br>
           <figure class="figure">
-            <img src="article1-daw.png" class="figure-img img-fluid rounded" alt="...">
+            <img src="images/article1-daw.png" class="figure-img img-fluid rounded" alt="...">
             <figcaption style="color: whitesmoke; text-align: justifyx;" class="figure-caption"> A digital audio workstation (DAW) is an electronic device or application software used for recording, editing and producing audio files. DAWs come in a wide variety of configurations from a single software program on a laptop, to an integrated stand-alone unit, all the way to a highly complex configuration of numerous components controlled by a central computer. Regardless of configuration, modern DAWs have a central interface that allows the user to alter and mix multiple recordings and tracks into a final produced piece.</figcaption>
           </figure>
           <br>
