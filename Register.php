@@ -17,18 +17,7 @@
 			<input type="email" name="email" class="form-control" placeholder="E-mail" />
 			<input type="password" name="password" placeholder="Password" value="" class="form-control"/>
 			<a href="#">Having a problem? Ask Us!</a> 
-			<a type="submit" name="add" value="Register" href="register_post.php"><button>Register!</button></a>
-          
-                             
-
-                              
-                             >
-
-                              
-                              
-                             
-           
-                              
+			<a type="submit" name="add" value="Register" href="register_post.php"><button>Register!</button></a>                         
 		</form>
 	</div>
           
@@ -39,7 +28,6 @@
 				<p>To keep connected with us please login with your personal info</p>
 				<button class="ghost" id="signIn">Sign In</button>
 			</div>
-			
 		</div>
 	</div>
 </div>
