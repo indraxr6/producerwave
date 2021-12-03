@@ -1,3 +1,7 @@
+<?php 
+include "navbar.php";
+
+?>
 <html lang="en">
     <meta charset="UTF-8">  
 <head>
@@ -6,35 +10,12 @@
     <title>About FL Studio</title>
     <link rel="icon" href="daw.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    
 
 
 </head>
 <body>
-    <header>
-        <section>
-            <nav>  
-                    <a href="index.php"> <img src="corner-icon_daw_invert.png" class="daw-icon"></a>
-                    <ul class="appbutton">
-                        <li><a class="appbutton-container" href="Logic.php" id="1"> Logic Pro</a></li>
-                        <li><a class="appbutton-container" href="FL.php" id="2"> FL Studio</a></li>
-                        <li><a class="appbutton-container" href="Able.php" id="3"> Ableton</a></li>
-                        <li><a class="appbutton-container" href="Garage.php" id="4"> Garage Band</a></li>
-
-            </ul>
-            <ul class="appbutton-right">
-
-                
-                <li><a class="appbutton-container-right" href="login.php"> Login/Register</a></li>
-                <!-- <a id="cart"" href="Buy.html"> <img src="cart.svg" class="cart-icon" style="width: 38px; filter: invert(1); opacity: 0.8;"></a> -->
-                <!-- <input type="text" placeholder="Search.."> -->
-            </ul>
-        
-
-            </nav>       
-            
-        </section>
-    </header>
+    
 
         <div  style="margin-top: 20;" class="optext">
             <h1 style="padding: 30px;">

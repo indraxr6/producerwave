@@ -1,7 +1,4 @@
-<?php 
-session_start();
- 
-?>
+
 <html lang="en">
           <meta charset="UTF-8">  
       <head>
@@ -15,28 +12,15 @@ session_start();
       
       
       </head>
+      <?php 
+
+include "navbar.php";
+?>
       <body>
-          <header>
-              <section>
-                  <nav>  
-                          <a href="index.php"> <img src="corner-icon_daw_invert.png" class="daw-icon"></a>
-                          <ul class="appbutton">
-                              <li><a class="appbutton-container" href="Logic.html" id="1"> Logic Pro</a></li>
-                              <li><a class="appbutton-container" href="FL.html" id="2"> FL Studio</a></li>
-                              <li><a class="appbutton-container" href="Able.html" id="3"> Ableton</a></li>
-                              <li><a class="appbutton-container" href="Garage.html" id="4"> Garage Band</a></li>
-                              <li><a class="appbutton-container-right" href="login.php"> <?= $_SESSION['name']  ?></a></li>
-                        <a id="cart" href="logout.php"><img src="images/logout.svg" class="cart-icon" style="width: 40px; filter: invert(1); opacity: 0.8;"></a>
-                              
       
-                  </ul>
-                  <ul class="appbutton-right"></ul>
-                  </nav>       
-                  
-              </section>
-          </header>
       
           <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            
                     <div class="carousel-indicators">
                       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>

@@ -1,11 +1,30 @@
 body {
     animation: transitionIn 0s;
+    width: 1000%;
+    
+    height: 100%;
+    grid-column: auto;
     
 }
+nav {
+    background-image: url(images/tes.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  padding: 0px;    
+}
+
+/* body {
+    
+  background-image: url(images/tes.png);
+  background-size: cover;
+  
+  padding: 0px;    
+} */
 
 
-/* @keyframes transitionIn {
-    from {
+@keyframes transitionIn {
+    /* from {
         opacity: 0;
         /* transform: translateY(-20px); */
         filter: blur(1px);
@@ -13,9 +32,9 @@ body {
     to {
         opacity: 1;
         transform: rotateX(0);
-        filter: blur(0);
+        filter: blur(0); */
     }
-} */
+}
 
 html, body {
     scroll-behavior: smooth;
@@ -41,11 +60,23 @@ html, body {
     transform: scale(1.2);
 }
 
-body {
-    background-image: url(images/main-bg3.png);
-    background-size: cover;
-    padding: 0px;
-    
+
+
+.btn-secondary {
+    color: #fff;
+    opacity: 0.8;
+    font-size: 17px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #111f37;
+    border-color: #111f37;
+    margin-left: -720px;
+    transition: .4s ease all;
+}
+.btn-secondary:hover {
+ 
+    color: #69d36d;
+    text-shadow: 0 0 14px white;   
 }
 
 nav {
@@ -55,35 +86,24 @@ nav {
     border-radius: 12px;
     background-color: #111f37;
     display: flex;
-    justify-content: right;
-    margin-left: 280px;
+    justify-content:flex-start;
+    margin-left: 290px;
     margin-top: 5px;
     box-shadow: 2px 2px 12px rgb(0 0 0 / 100%);
-    /* width: 70%;
-    border-radius: 15px;
-    margin-left: 190px;
-    /* position: fixed; */
-    /* display: flex; */
-    /* justify-content: left; */
-    /* align-items: center; */
-    /* height: 70px;
-    background-color: #111f37;
-    box-shadow: 2px 2px 12px rgb(0 0 0 / 100%);
-    padding: 0px 5%; */ 
-    
 }
-
+.nav-right {
+    justify-content: right
+}
 
 nav ul{
     display: flex;
-    padding-left: 40px;
-     
+    align-items: flex-end;
+    padding-left: 750px;
 }
 
 ul{
     list-style: none;
     margin-top: 15px;
-
 }
 a{
     text-decoration: none;
@@ -91,60 +111,35 @@ a{
 
 nav ul li a{
     margin: 20px;
-    
-    padding: 3px;
-    font-weight: lighter;
-    align-items: center;    
+    padding: 1px;
+    font-weight: lighter;    
 }
 
+
 .appbutton-container {
-    font-size: 18px;
+    font-size: 17px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     opacity: 0.8;
     padding-bottom: px;
-    align-items: center;
-    
-    /* 
-    border-radius: 0px;
-    border-color: transparent;
-    
-    /* padding: 18px 17px; */
-    /* text-align: right;
-    text-decoration: none; */
-    /* margin-left: 10px; */
-     /* margin-left: 70px; */
-    /* margin-right: 10px;  */
-    /* font-size: 18px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: px;
-    opacity: 0.8;
     transition: .4s ease all;
-    color: white; */ 
+    
 }
-
 
 .appbutton-container-right {    
         
-    
-    margin-left: 70px;
-    padding-left: 5in;
+    margin-left: 20px;
+    padding-left: in;
     font-size: 18px;
-    /* font-weight: 200; */
     color: white;
     opacity: 0.8;
-    transition: .4s ease all;
-    
-       
+    transition: .4s ease all;       
 }
 
 .appbutton-container-right:hover {
-    
-    /* color: #233c66; */
+
     color: #69d36d;
-    text-shadow: 0 0 14px white;
-    
-    
+    text-shadow: 0 0 14px white;   
 }
 
 #cart {
@@ -154,13 +149,8 @@ nav ul li a{
 
 #cart:hover {
     filter: opacity(0.5);
-    
-    /* color: #69d36d;
-    box-shadow: 0 0 14px white; */   
 }
 .appbutton-container:hover {
-    
-    /* color: #233c66; */
     color: #69d36d;
     text-shadow: 0 0 14px white;
 }
@@ -213,6 +203,7 @@ li {
 .optext .about {
     font-size: 20px;
     line-height: 2;
+    
     
 }
 

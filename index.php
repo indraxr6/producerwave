@@ -1,7 +1,18 @@
+
 <?php 
 include "navbar.php";
 
+
+
 ?>
+    <title>Producerwave - Home</title>
+    <body style=" 
+  background-image: url(images/main-bg3.png);
+  background-size: cover;
+  padding: 0px;    
+  ">
+        
+    
     <div class="bodymain">
     <div class="iconselect"; style="text-align: center; margin-top: 80px;">
         
@@ -24,12 +35,22 @@ include "navbar.php";
             DAWs facilitate mixing of multiple sound sources on a time-based grid. There are lots of different DAWs out there, each with different strengths and weaknesses.
         </p>
     </div>
+
     
-    <div>   
+    
+    <div class="center">   
         
         <a href="learnmore.php"><button class="learn-button-container">Learn More</button></a>
         
     </div>
+
+
+</div>
+<br>
+<br>
+<br>
+<br>
+
 </div>
 <footer>
 	<p>
@@ -38,8 +59,13 @@ include "navbar.php";
 
         
 </footer>
+
     
 </body>
-</php>
+
+
+</html>
+
+
 
 
